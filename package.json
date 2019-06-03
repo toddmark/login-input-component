@@ -1,0 +1,22 @@
+{
+  "name": "login-input-component",
+  "version": "0.0.1",
+  "description": "input useranme or password for login ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toddmark/login-input-component.git"
+  },
+  "keywords": [
+    "login-component"
+  ],
+  "author": "toddmark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toddmark/login-input-component/issues"
+  },
+  "homepage": "https://github.com/toddmark/login-input-component#readme"
+}
