@@ -4,7 +4,8 @@
   "description": "input useranme or password for login ",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,19 @@
   "bugs": {
     "url": "https://github.com/toddmark/login-input-component/issues"
   },
-  "homepage": "https://github.com/toddmark/login-input-component#readme"
+  "homepage": "https://github.com/toddmark/login-input-component#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.2"
+  },
+  "dependencies": {
+    "react": "^16.8.6"
+  }
 }
