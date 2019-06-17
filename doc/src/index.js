@@ -11,6 +11,7 @@ class Test extends React.Component {
       <div>
         <toddmark.one />
         <toddmark.two />
+        <p>maybe I can try another thing. But don't give up something easliy especially </p>
       </div>
     )
   }
