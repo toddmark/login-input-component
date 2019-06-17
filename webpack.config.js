@@ -1,9 +1,10 @@
 module.exports = {
-  "mode": "development",
+  "mode": "production",
   "entry": "./src/index.js",
   "output": {
     "path": __dirname + '/dist',
-    "filename": "[name].js"
+    "filename": "[name].js",
+    "libraryTarget": "umd"
   },
   "module": {
     "rules": [
@@ -17,7 +18,7 @@ module.exports = {
     ]
   },
   externals: {
-    'react': "React"
+    'react': "react"
   }
 
 }

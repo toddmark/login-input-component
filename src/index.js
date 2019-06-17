@@ -1,12 +1,7 @@
-import React from "react";
+import one from "./typeone";
+import two from "./typetwo";
 
-
-class LoginInput extends React.Component {
-  render(){
-    return (
-      <div>toddmark</div>
-    )
-  }
+export default {
+  one,
+  two
 }
-
-export default LoginInput;
