@@ -1,6 +1,6 @@
 {
   "name": "@toddmark/login-input-component",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "description": "input useranme or password for login ",
   "main": "./dist/main.js",
   "scripts": {
