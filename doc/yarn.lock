@@ -181,10 +181,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@toddmark/login-input-component@^0.0.20":
-  version "0.0.20"
-  resolved "https://registry.npm.taobao.org/@toddmark/login-input-component/download/@toddmark/login-input-component-0.0.20.tgz#f8744a7d2d52b775668c4c9ba4b89bde03faa286"
-  integrity sha1-+HRKfS1St3VmjEybpLib3gP6ooY=
+"@toddmark/login-input-component@^0.0.23":
+  version "0.0.23"
+  resolved "https://registry.npm.taobao.org/@toddmark/login-input-component/download/@toddmark/login-input-component-0.0.23.tgz#013ce7559b71b442412e320e96afb67f28437e04"
+  integrity sha1-ATznVZtxtEJBLjIOlq+2fyhDfgQ=
   dependencies:
     react "^16.8.6"
 
