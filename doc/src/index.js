@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import toddmark from "@toddmark/login-input-component";
-
+// import toddmark from "@toddmark/login-input-component";
+import toddmark from "../../src/index";
 
 class Test extends React.Component {
 
@@ -9,9 +9,14 @@ class Test extends React.Component {
     console.log(toddmark);
     return (
       <div>
+        <h5>
+          Component: 1
+        </h5>
         <toddmark.one />
+        <h5>
+          Component: 2
+        </h5>
         <toddmark.two />
-        <p>maybe I can try another thing. But don't give up something easliy especially </p>
       </div>
     )
   }

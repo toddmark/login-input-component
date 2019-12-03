@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   mode: 'development',
-  entry: "./src/index.js",
+  entry: "./doc/src/index.js",
   output: {
     filename: "index-bundle.js"
   },
@@ -14,7 +14,7 @@ module.exports = {
         "exclude": /node_modules/,
         "use": {
           "loader": "babel-loader",
-        }
+        },
       }
     ]
   },
@@ -27,7 +27,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       filename: "doc.html",
-      template: "./src/index.html"
+      template: "./doc/src/index.html"
     })
   ]
 };

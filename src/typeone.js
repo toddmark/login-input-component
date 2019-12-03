@@ -6,14 +6,13 @@ class LoginInput extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      value: "test"
+      value: "default"
     }
   }
   render() {
     return (
       <div>
-        <input value={this.state.value} />
-        <h2>it's a gift for you.</h2>
+        <input value={this.state.value} onChange={value => this.setState({value: value.target.value})} />
       </div>
     )
   }

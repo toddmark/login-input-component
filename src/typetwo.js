@@ -7,7 +7,9 @@ class LoginInput extends React.Component {
   render() {
     return (
       <div>
-        <div>There is only one thing to do that doing one thing on one time.</div>
+        <div style={{color: "#369"}}>
+          EC-M
+        </div>
       </div>
     )
   }
