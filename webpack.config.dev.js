@@ -5,7 +5,7 @@ module.exports = {
   mode: 'development',
   entry: "./doc/src/index.js",
   output: {
-    filename: "index-bundle.js"
+    filename: "dev-index-bundle.js"
   },
   "module": {
     "rules": [
@@ -19,7 +19,7 @@ module.exports = {
     ]
   },
   devServer: {
-    contentBase: path.join(__dirname, 'dist'),
+    // contentBase: path.join(__dirname, 'dist'),
     // compress: true,
     port: 8999,
     //module: false
