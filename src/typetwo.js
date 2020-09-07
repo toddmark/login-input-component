@@ -8,7 +8,7 @@ class LoginInput extends React.Component {
     return (
       <div>
         <div style={{color: "#369"}}>
-          EC-M
+        456
         </div>
       </div>
     )

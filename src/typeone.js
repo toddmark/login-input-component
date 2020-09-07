@@ -13,6 +13,7 @@ class LoginInput extends React.Component {
     return (
       <div>
         <input value={this.state.value} onChange={value => this.setState({value: value.target.value})} />
+        123
       </div>
     )
   }
